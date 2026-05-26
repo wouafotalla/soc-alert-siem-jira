@@ -84,8 +84,8 @@ The lab simulates real-world workflows where detected security events are logged
 
 ## 🔹 Jira via atlassian
 
-- Receives incidents as tickets  
-- Tracks issue ownership and priorities  
+- Receives incidents as tickets Image link: https://github.com/wouafotalla/soc-alert-siem-jira/blob/main/Screenshot%202026-05-25%209.46.14%20PM.png
+- Tracks issue ownership and priorities, Image link: https://github.com/wouafotalla/soc-alert-siem-jira/blob/main/Screenshot%202026-05-25%209.49.35%20PM.png
 - Monitors ticket lifecycle and resolution  
 - Supports SOC investigation workflows  
 
@@ -126,7 +126,7 @@ Incident Lifecycle Tracking
 
 ## 1️Procedure
 ```bash
-git<a href="https://github.com/wouafotalla/soc-alert-siem-jira/edit/main/README>Steps</a>
+git[https://github.com/wouafotalla/soc-alert-siem-jira/edit/main/README] Steps
 ```
 
 ---
@@ -135,12 +135,14 @@ git<a href="https://github.com/wouafotalla/soc-alert-siem-jira/edit/main/README>
 
 Install:
 - Elasticsearch
-- Kibana
 - Elastic Security
 
 ## 3️Configure Jira Integration
 
-- Create Jira API token and copy it 
+- Create Jira API token and copy it
+- 1) https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/
+  2) https://github.com/wouafotalla/soc-alert-siem-jira/blob/main/Screenshot%202026-05-26%202.08.01%20AM.png
+  3) https://github.com/wouafotalla/soc-alert-siem-jira/blob/main/Screenshot%202026-05-26%202.10.44%20AM.png
 - Configure webhooks/API integration  
 - Connect Elastic Cases to Jira  
 
@@ -165,11 +167,11 @@ Observe:
 
 # Future Improvements I will do
 
-- 🔹 Add automated response actions  
-- 🔹 Integrate Slack notifications  
-- 🔹 Add phishing detection rules  
-- 🔹 Simulate brute-force attacks  
-- 🔹 Integrate Wazuh or Suricata  
+- Add automated response actions  
+- Integrate Slack notifications  
+- Add phishing detection rules  
+- Simulate brute-force attacks  
+- Integrate Wazuh or Suricata  
 
 ---
 
